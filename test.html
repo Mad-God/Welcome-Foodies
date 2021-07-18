@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <script type="text/javascript" src="test.js"></script>
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      form {
+        background-color: #dcdcdc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form
+      action="#"
+      name="StudenSignupForm"
+      onsubmit="return(validateHTMlform());"
+    >
+      <div
+        cellpadding="2"
+        width="20%"
+        bgcolor="99FFFF"
+        align="center"
+        cellspacing="2"
+      >
+        <ul>
+          <li>User Name</li>
+          <li>
+            <input
+              type="text"
+              required
+              name="textnames"
+              id="textname"
+              size="30"
+            />
+          </li>
+        </ul>
+        <ul>
+          <li>Mobile Number</li>
+          <li>
+            <input
+              type="text"
+              required
+              name="mobilenumber"
+              id="mobile_no"
+              size="30"
+            />
+          </li>
+        </ul>
+
+        <ul>
+          <li>User Type</li>
+          <li>
+            Admin:
+            <input
+              type="radio"
+              required
+              name="type"
+              id="u_type"
+              value="Admin"
+            />
+          </li>
+          <br />
+          <li>
+            Guest:
+            <input
+              type="radio"
+              required
+              name="type"
+              id="u_type"
+              value="Admin"
+            />
+          </li>
+        </ul>
+        <input type="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

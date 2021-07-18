@@ -1,0 +1,133 @@
+
+section{
+  height: 225vh;
+  background-image: linear-gradient(#00b09b,#96c93d);
+  border-radius: 3%;
+  background-size: cover;
+  }
+
+.logo{
+  
+  width: 95%;
+  position: relative;
+  text-align: center;
+  height: 100px;
+  background-color: black;
+  border-radius: 12px;
+  margin: 0px;
+  border: 0px;
+}
+
+#img{
+  padding-top: 6px;
+  z-index: 2;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.btn-group{
+  width: 95%;
+  margin: 0px;
+  border: 0px;
+  background-color: black;
+  padding-top: 17px;
+  margin: 0px;
+  height: 80%;
+  background-color: black;
+  border-radius: 12px;
+}
+#b1{
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.btn-group .button {
+
+  background-color: rgb(216, 154, 39); /* Green */
+  border: 1px rgb(253, 165, 0);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+a{
+  text-decoration: none;
+  color: white; 
+}
+
+a:visited {
+  color: white;
+  text-decoration: none ;
+}
+
+
+
+.content{
+  background-color: rgb(240, 217, 184);
+  width: 80%;
+  height: 170vh;
+  border-radius: 3%;
+  box-shadow: 10 100px 100px 10 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.452);
+  
+}
+
+
+fieldset {
+position: relative;
+border-radius: 3%;
+width: 90%;
+}
+
+legend {
+background-color: gray;
+color: white;
+padding: 5px 10px;
+width: 30%;
+}
+
+body{
+  color:rgb(100, 100, 100);
+  font-size: 150%;
+
+}
+
+input {
+margin: 5px;
+border-radius: 8%;
+}
+
+textarea{
+  border-radius: 5%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  width: 100%;
+  height: 750px;
+}
+
+
+#get{
+  background-color: rgb(216, 154, 39); /* Green */
+  border: 1px rgb(253, 165, 0);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}

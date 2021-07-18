@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <script src="form.js"></script>
+  </head>
+
+  <body>
+    <section>
+      <center>
+        <div class="logo">
+          <center>
+            <img
+              src="Yellow Red Tan Playful & Celebratory Traditional Graduation Banner.png"
+              alt="No.image"
+              srcset=""
+              id="img"
+            />
+          </center>
+        </div>
+      </center>
+      <center>
+        <center>
+          <div class="btn-group">
+            <button class="button" id="b1"><a href="home.html">Home</a></button>
+            <button class="button" id="b1">
+              <a href="mailto:sanskar.agarwal91@gmail.com">Contact</a>
+            </button>
+          </div>
+        </center>
+        <br />
+
+        <div class="content">
+          <form
+            action="https://formspree.io/f/xpzkdnwd"
+            name="data"
+            method="POST"
+          >
+            <fieldset>
+              <legend>Pls Share your Recipe</legend>
+              Recipe name: <input type="text" name="rec" id="rec" />
+              <br />
+              &nbsp&nbsp&nbspImage : <input type="file" name="img" id="im" />
+
+              <p>Pls share your Recipe here</p>
+              <textarea
+                name="Recipe_steps"
+                id="Recipe_steps"
+                cols="70"
+                rows="41"
+              >
+              </textarea>
+              <br />
+              <center>
+                <!-- <button type="submit" id="get" onclick="return dat()"> -->
+                <button type="submit" id="get" onclick="addRecipe()">
+                  submit
+                </button>
+              </center>
+            </fieldset>
+          </form>
+        </div>
+      </center>
+    </section>
+  </body>
+</html>

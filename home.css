@@ -1,0 +1,292 @@
+section {
+  height: 240vh;
+  background-image: linear-gradient(#00b09b, #96c93d);
+  border-radius: 3%;
+  background-size: cover;
+}
+
+#img1 {
+  opacity: 0.85;
+  float: left;
+  width: 30%;
+  height: 16%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 95%;
+  position: relative;
+  text-align: center;
+  height: 100px;
+  background-color: black;
+  border-radius: 12px;
+  margin: 0px;
+  border: 0px;
+}
+
+#img {
+  padding-top: 6px;
+  z-index: 2;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.btn-group {
+  width: 95%;
+  margin: 0px;
+  border: 0px;
+  background-color: black;
+  padding-top: 17px;
+  margin: 0px;
+  height: 80%;
+  background-color: black;
+  border-radius: 12px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------------------*/
+
+.searchbar {
+  font-size: 100%;
+  width: 20%;
+  height: 0%;
+  border: none;
+  outline: none;
+  border-radius: 10rem;
+  padding: 0.5rem;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+
+.searchbar::placeholder {
+  opacity: 0.7;
+}
+
+.searchbutton {
+  top: 0.5rem;
+  right: 2.6rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+  padding-top: 20px;
+}
+
+.searchbutton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/*---------------------------------------------------------------------*/
+
+#b1 {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.btn-group .button {
+  background-color: rgb(216, 154, 39); /* Green */
+  border: 1px rgb(253, 165, 0);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  opacity: 0.6;
+  margin: 5%;
+  font-size: 140%;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+.content {
+  background-color: rgb(240, 217, 184);
+  width: 90%;
+  height: 180vh;
+  border-radius: 3%;
+  box-shadow: 10 100px 100px 10 rgba(0, 0, 0, 0.664),
+    0 6px 20px 0 rgba(0, 0, 0, 0.452);
+}
+
+.list {
+  width: 100%;
+  height: 100%;
+  padding-top: 3%;
+  float: left;
+}
+
+div.polaroid {
+  position: relative;
+  width: 20%;
+  margin-left: 8%;
+  border-radius: 8%;
+  background-color: white;
+  margin-bottom: 20px;
+  content: "";
+  clear: both;
+  display: inline-table;
+  margin-bottom: 7%;
+}
+
+div.polaroid:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 500ms;
+}
+/* ------------------------------------*/
+
+div.polaroid1 {
+  position: relative;
+  width: 20%;
+  margin-left: 8%;
+  border-radius: 8%;
+  background-color: white;
+  margin-bottom: 7%;
+  content: "";
+  clear: both;
+  display: inline-table;
+}
+
+div.polaroid1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 500ms;
+}
+
+/* ------------------------------------*/
+
+div.polaroid2 {
+  position: relative;
+  width: 20%;
+  margin-left: 8%;
+  border-radius: 8%;
+  background-color: white;
+  margin-bottom: 7%;
+  content: "";
+  clear: both;
+  display: inline-table;
+}
+
+div.polaroid2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 500ms;
+}
+
+/* ------------------------------------*/
+
+div.container {
+  float: left;
+  padding: 10px 20px;
+}
+
+#mail {
+  width: 5%;
+  float: left;
+  margin-left: 70px;
+}
+/*---------------------------------------------*/
+
+.icons {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.452),
+    0 6px 20px 0 rgba(0, 0, 0, 0.445);
+  margin-left: 5%;
+  margin-right: 5%;
+  align-content: center;
+}
+
+#mail {
+  width: 30px;
+  padding: 10px;
+  margin: 0%;
+}
+
+#mail:hover {
+  image-resolution: inherit;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.733),
+    0 6px 20px 0 rgba(0, 0, 0, 0.726);
+  transition: 500ms;
+  border-radius: 100%;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+  background-color: rgba(19, 16, 16, 0.87);
+  color: rgb(114, 114, 112);
+  border-collapse: collapse;
+  transition: 0.7s;
+}
+
+th {
+  color: rgb(56, 136, 56);
+  padding-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding-right: 12px;
+
+  margin-left: 10px;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+table:hover {
+  box-shadow: 10px 10px 40px -2px;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  opacity: 1;
+  margin: 5%;
+  font-size: 120%;
+}
+
+#mail1 {
+  width: 50px;
+  padding: 10px;
+  margin: 0%;
+}
+
+#mail1:hover {
+  image-resolution: inherit;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.733),
+    0 6px 20px 0 rgba(0, 0, 0, 0.726);
+  transition: 500ms;
+  border-radius: 100%;
+}
